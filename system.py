@@ -13,15 +13,15 @@ def SendVideo(userid, msgid):
     tg_url = api + "/sendvideo"
     data = {
         "chat_id": userid,
-        "caption": "<b>Video Downloaded from</b> @TiktokVideoDownloaderIDBot!\n\n<b>EN</b> : <i>if video blank send url again!</i>\n<b>ID</b> : <i>jika video putih kirim url lagi</i>",
+        "caption": "<b>Video Downloaded from</b> @ti_down_bot!\n\n<b>EN</b> : <i>if the video is blank send url again!</i>\n<b>සිංහල</b> : <i> වැඩ කරේ නැත්තං ආය් ලින්ක් එක එවන්න</i>",
         "parse_mode": "html",
         "reply_to_message_id": msgid,
         "reply_markup": json.dumps({
             "inline_keyboard": [
                 [
                     {
-                        "text": "Support Me <3",
-                        "url": "https://www.youtube.com/channel/UCTjTQErgDA79Owo6tnYN0PQ?sub_confirmation=1"
+                        "text": "⭕️ සිංහල උපසිරසි සමග චිත්‍රපටි බලන්න මේක ඔබන්න ⭕️",
+                        "url": "https://t.me/Films_l_tv_series"
                     }
                 ]
             ]
@@ -97,7 +97,7 @@ def Bot(update):
             SendMsg(userid, "How to use this bot :\njust send or paste url tiktok video on this bot !\n\n/donation - for donation bot\n/status - show status bot", msgid)
         elif meseg.startswith("/donation"):
             # SendMsg(userid, "Support me on\n\nko-fi (EN): https://ko-fi.com/fowawaztruffle\nsaweria (ID): https://saweria.co/fowawaztruffle\ntrakteerid (ID): https://trakteer.id/fowawaz\nQRIS (EWALLET,BANK): https://s.id/nusantara-qr", msgid)
-            text = "EN : support this bot by subscribing to the developer channel and watching the video hehehehe. Thanks\n\nID : dukung bot ini dengan cara berlangganaan di channel developer dan menonton videonya hehehehe. Terima kasih"
+            text = "EN : support this bot by subscribing to the developer channel and watching the video hehehehe. Thanks\n\nID : dග්ෆ්"
             SendMsg(userid, text, msgid)
             return
     except KeyError:
