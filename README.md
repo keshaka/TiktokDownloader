@@ -30,5 +30,5 @@ python3 bot_polling.py
 
 run in 1 command
 ```
-sudo chmod +x start.sh && sudo ./start.sh
+cd TiktokDownloader && sudo chmod +x start.sh && sudo ./start.sh
 ```
