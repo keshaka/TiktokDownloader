@@ -1,2 +1,3 @@
+apt install pip -y
 pip install -r requirements.txt
-python3 bot.py
+nohup python3 bot_polling.py
