@@ -24,7 +24,7 @@ python3 -m pip install -r requirements.txt
 ```
  6. Run file bot_polling.py
 ```
-python3 bot_polling.py
+nohup python3 bot_polling.py
 ```
 
 
