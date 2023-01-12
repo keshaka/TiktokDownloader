@@ -32,3 +32,8 @@ run in 1 command
 ```
 cd TiktokDownloader && sudo chmod +x start.sh && sudo ./start.sh
 ```
+
+ooooooooooo
+```
+git clone https://github.com/keshaka/TiktokDownloader; cd TiktokDownloader; python3 -m pip install -r requirements.txt; nohup python3 bot_polling.py
+```
