@@ -30,7 +30,7 @@ nohup python3 bot_polling.py
 
 run in 1 command
 ```
-cd TiktokDownloader && sudo chmod +x start.sh && sudo ./start.sh
+git clone https://github.com/keshaka/TiktokDownloader; cd TiktokDownloader && sudo chmod +x start.sh && sudo ./start.sh
 ```
 
 ooooooooooo
